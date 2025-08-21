@@ -1,0 +1,7 @@
+Running: xsim.dir/TB_RESIZE_3_TO_32_behav/xsimk.exe -simmode gui -wdb TB_RESIZE_3_TO_32_behav.wdb -simrunnum 0 -socket 56012
+Design successfully loaded
+Design Loading Memory Usage: 29480 KB (Peak: 29480 KB)
+Design Loading CPU Usage: 640 ms
+Simulation completed
+Simulation Memory Usage: 30308 KB (Peak: 30308 KB)
+Simulation CPU Usage: 687 ms

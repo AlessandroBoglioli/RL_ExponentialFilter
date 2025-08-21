@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3538001130695717159  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot TB_FILTRO_ESPONENZIALE_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.TB_FILTRO_ESPONENZIALE xil_defaultlib.glbl" , 
+    buildDate : "Nov  8 2024" , 
+    buildTime : "22:36:57" , 
+    linkCmd : "C:\\Users\\utente\\Vivado\\2024.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/TB_FILTRO_ESPONENZIALE_time_synth/xsimk.exe\"   \"xsim.dir/TB_FILTRO_ESPONENZIALE_time_synth/obj/xsim_0.win64.obj\" \"xsim.dir/TB_FILTRO_ESPONENZIALE_time_synth/obj/xsim_1.win64.obj\" \"xsim.dir/TB_FILTRO_ESPONENZIALE_time_synth/obj/xsim_2.win64.obj\" -L\"C:\\Users\\utente\\Vivado\\2024.2\\lib\\win64.o\" -lxv_simulator_kernel   -lxv_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TB_BARREL_SHIFTER_32_4_behav" "xil_defaultlib.TB_BARREL_SHIFTER_32_4" -log "elaborate.log" 

@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ERROR: File expectedOutputs.txt is not open. Cannot call endfile on it
+Time: 0 ps  Iteration: 0  Process: /TB_FILTRO_ESPONENZIALE/LEGGI_E_VERIFICA_Y
+  File: C:/Users/utente/VivaldoProjects/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE.vhd
+
+HDL Line: C:/Users/utente/VivaldoProjects/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE.vhd:71

@@ -1,0 +1,29 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/utente/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_FILTRO_ESPONENZIALE_behav xil_defaultlib.TB_FILTRO_ESPONENZIALE -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling architecture rtl of entity xil_defaultlib.FF_D [ff_d_default]
+Compiling architecture struct of entity xil_defaultlib.FF_D_32 [ff_d_32_default]
+Compiling architecture rtl of entity xil_defaultlib.COMPARATOR [comparator_default]
+Compiling architecture struct of entity xil_defaultlib.FF_D_3 [ff_d_3_default]
+Compiling architecture rtl of entity xil_defaultlib.MUX_2_1 [mux_2_1_default]
+Compiling architecture struct of entity xil_defaultlib.SRL4_32 [srl4_32_default]
+Compiling architecture struct of entity xil_defaultlib.SRL2_32 [srl2_32_default]
+Compiling architecture struct of entity xil_defaultlib.SRL1_32 [srl1_32_default]
+Compiling architecture struct of entity xil_defaultlib.BARREL_SHIFTER_32_4 [barrel_shifter_32_4_default]
+Compiling architecture rtl of entity xil_defaultlib.FA [fa_default]
+Compiling architecture rtl of entity xil_defaultlib.SIMPLE_SUM [simple_sum_default]
+Compiling architecture struct of entity xil_defaultlib.CSA_32 [csa_32_default]
+Compiling architecture struct of entity xil_defaultlib.FILTRO_ESPONENZIALE [filtro_esponenziale_default]
+Compiling architecture beh of entity xil_defaultlib.tb_filtro_esponenziale
+Built simulation snapshot TB_FILTRO_ESPONENZIALE_behav

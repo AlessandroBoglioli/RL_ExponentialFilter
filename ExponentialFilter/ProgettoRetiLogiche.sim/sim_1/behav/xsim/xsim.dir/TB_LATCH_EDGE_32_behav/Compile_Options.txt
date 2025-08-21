@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TB_LATCH_EDGE_32_behav" "xil_defaultlib.TB_LATCH_EDGE_32" -log "elaborate.log" 
