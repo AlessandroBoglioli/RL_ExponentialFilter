@@ -21,7 +21,7 @@ int main (int argc, char** argv){
     int k;
     int cnt;
     
-    const char *filepath = "ProgettoRetiLogiche.sim/sim_1/behav/xsim/expectedOutputs.txt";
+    const char *filepath = "ExponentialFilter/ProgettoRetiLogiche.sim/sim_1/behav/xsim/expectedOutputs.txt";
     FILE *file_pointer;
     
     file_pointer = fopen(filepath, "w");
