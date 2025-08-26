@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.runs/impl_3/FILTRO_ESPONENZIALE.tcl"
+  variable script "C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.runs/impl_3/FILTRO_ESPONENZIALE.tcl"
   variable category "vivado_impl"
 }
 
@@ -112,15 +112,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.cache/wt [current_project]
-  set_property parent.project_path C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.xpr [current_project]
-  set_property ip_output_repo C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.cache/wt [current_project]
+  set_property parent.project_path C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.xpr [current_project]
+  set_property ip_output_repo C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.runs/synth_1/FILTRO_ESPONENZIALE.dcp
+  add_files -quiet C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.runs/synth_1/FILTRO_ESPONENZIALE.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/constrs_1/new/CLOCK.xdc
+  read_xdc C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/constrs_1/new/CLOCK.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

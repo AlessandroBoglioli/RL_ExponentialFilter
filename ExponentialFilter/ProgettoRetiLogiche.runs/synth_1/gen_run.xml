@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1755780755" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/FA.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1756128223" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/FA.dcp">
+  <File Type="PA-TCL" Name="FILTRO_ESPONENZIALE.tcl"/>
   <File Type="REPORTS-TCL" Name="FILTRO_ESPONENZIALE_reports.tcl"/>
+  <File Type="RDS-RDS" Name="FILTRO_ESPONENZIALE.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="FILTRO_ESPONENZIALE_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="FILTRO_ESPONENZIALE_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="FILTRO_ESPONENZIALE_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="FILTRO_ESPONENZIALE.tcl"/>
-  <File Type="RDS-RDS" Name="FILTRO_ESPONENZIALE.vds"/>
   <File Type="RDS-DCP" Name="FILTRO_ESPONENZIALE.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="FILTRO_ESPONENZIALE_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="FILTRO_ESPONENZIALE_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/BARREL_SHIFTER_32_4.vhd">

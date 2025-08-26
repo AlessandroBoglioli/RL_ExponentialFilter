@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.runs/synth_1/FILTRO_ESPONENZIALE.tcl"
+  variable script "C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.runs/synth_1/FILTRO_ESPONENZIALE.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,33 +56,32 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7k70tfbv676-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.cache/wt [current_project]
-set_property parent.project_path C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.cache/wt [current_project]
+set_property parent.project_path C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.cache/ip [current_project]
+set_property ip_output_repo c:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/BARREL_SHIFTER_32_4.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/CSA_32.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/FA.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/FF_D.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/FF_D_N.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/MUX_2_1.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/SIMPLE_SUM.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/SRL1_32.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/SRL2_32.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/SRL4_32.vhd
-  C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/BARREL_SHIFTER_32_4.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/CSA_32.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FA.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FF_D.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FF_D_N.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/MUX_2_1.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SIMPLE_SUM.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL1_32.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL2_32.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL4_32.vhd
+  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -93,12 +92,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/constrs_1/new/CLOCK.xdc
-set_property used_in_implementation false [get_files C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/constrs_1/new/CLOCK.xdc]
+read_xdc C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/constrs_1/new/CLOCK.xdc
+set_property used_in_implementation false [get_files C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/constrs_1/new/CLOCK.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.srcs/utils_1/imports/synth_1/FA.dcp
+read_checkpoint -auto_incremental -incremental C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/utils_1/imports/synth_1/FA.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

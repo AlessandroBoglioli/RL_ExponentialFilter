@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.sim/sim_1/impl/timing/xsim/TB_FILTRO_ESPONENZIALE_PPR_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.sim/sim_1/impl/timing/xsim/TB_FILTRO_ESPONENZIALE_PPR_time_impl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module FF_D
 INFO: [VRFC 10-311] analyzing module FF_D_10
 INFO: [VRFC 10-311] analyzing module FF_D_100

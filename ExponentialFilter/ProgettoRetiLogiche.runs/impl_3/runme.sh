@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/utente/VivadoProject/ProgettoRetiLogiche/ProgettoRetiLogiche.runs/impl_3'
+HD_PWD='C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.runs/impl_3'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
