@@ -1,7 +1,7 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_TEXTIO.ALL;
-use STD.TEXTIO.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
+use std.textio.all;
+use ieee.float_pkg.all;
 
 entity TB_FILTRO_ESPONENZIALE is
 end TB_FILTRO_ESPONENZIALE;
@@ -76,7 +76,7 @@ begin
         
         file_open(file_risultati, "expectedOutputs.txt", READ_MODE);
         
-        wait for 4.5 ns; -- aspetto che il sistema abbia pronto X_t
+        wait for 3.5 ns; -- aspetto che il sistema abbia pronto X_t
 
         while not endfile(file_risultati) loop
 
