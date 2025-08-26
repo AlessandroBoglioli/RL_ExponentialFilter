@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use std.textio.all;
-use ieee.float_pkg.all;
+
 
 entity TB_FILTRO_ESPONENZIALE is
 end TB_FILTRO_ESPONENZIALE;
@@ -46,22 +46,13 @@ begin
         
     begin
     
-        -- Iniziallizzazione registri
+        K <= "001";
+        X <= x"00010000";
         
         RESET <= '1';
         wait for 0.5 ns;
         RESET <= '0';
-    
-        -- Impsto i valori di X e K
         
-        K <= "001";
-        X <= x"00010000";
-        
-        -- Caso limite di valore troppo piccolo (2^{-16+k})
-        
---        K <= "010";
---        X <= x"00000002";
-
         wait;
         
     end process;

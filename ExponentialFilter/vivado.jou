@@ -3,10 +3,10 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Aug 26 15:35:13 2025
-# Process ID         : 10524
+# Start of session at: Tue Aug 26 18:18:37 2025
+# Process ID         : 13084
 # Current directory  : C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent14112 C:\Users\utente\Desktop\Progetto_Vivado\RL_ExponentialFilter\ExponentialFilter\ProgettoRetiLogiche.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3612 C:\Users\utente\Desktop\Progetto_Vivado\RL_ExponentialFilter\ExponentialFilter\ProgettoRetiLogiche.xpr
 # Log file           : C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/vivado.log
 # Journal file       : C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter\vivado.jou
 # Running On         : LAPTOP-S8I20B5B
@@ -19,34 +19,7 @@
 # Host memory        : 16805 MB
 # Swap memory        : 1073 MB
 # Total Virtual      : 17878 MB
-# Available Virtual  : 7263 MB
+# Available Virtual  : 7821 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.xpr
-update_compile_order -fileset sources_1
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top TB_FILTRO_ESPONENZIALE [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sim_1
-launch_simulation
-source TB_FILTRO_ESPONENZIALE.tcl
-close_sim
-launch_simulation
-source TB_FILTRO_ESPONENZIALE.tcl
-close_sim
-launch_simulation
-source TB_FILTRO_ESPONENZIALE.tcl
-set_property file_type {VHDL 2008} [get_files  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE.vhd]
-close_sim
-launch_simulation
-source TB_FILTRO_ESPONENZIALE.tcl
-close_sim
-launch_simulation
-source TB_FILTRO_ESPONENZIALE.tcl
-close_sim
-launch_simulation
-source TB_FILTRO_ESPONENZIALE.tcl
-close_sim

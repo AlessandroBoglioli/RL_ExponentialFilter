@@ -32,8 +32,6 @@ Compiling module xil_defaultlib.FF_D_169
 Compiling module xil_defaultlib.FF_D_170
 Compiling module xil_defaultlib.FF_D_171
 Compiling module xil_defaultlib.FF_D_172
-Compiling module simprims_ver.x_lut2_mux4
-Compiling module simprims_ver.LUT2
 Compiling module xil_defaultlib.FF_D_173
 Compiling module xil_defaultlib.FF_D_174
 Compiling module xil_defaultlib.FF_D_175
@@ -157,6 +155,8 @@ Compiling module xil_defaultlib.FF_D_89
 Compiling module xil_defaultlib.FF_D_90
 Compiling module xil_defaultlib.FF_D_91
 Compiling module xil_defaultlib.FF_D_92
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
 Compiling module xil_defaultlib.FF_D_93
 Compiling module xil_defaultlib.FF_D_94
 Compiling module xil_defaultlib.FF_D_95

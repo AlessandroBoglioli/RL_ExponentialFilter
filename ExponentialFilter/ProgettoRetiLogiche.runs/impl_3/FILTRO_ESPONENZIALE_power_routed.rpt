@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date             : Mon Aug 25 15:25:38 2025
+| Date             : Tue Aug 26 18:20:30 2025
 | Host             : LAPTOP-S8I20B5B running 64-bit major release  (build 9200)
 | Command          : report_power -file FILTRO_ESPONENZIALE_power_routed.rpt -pb FILTRO_ESPONENZIALE_power_summary_routed.pb -rpx FILTRO_ESPONENZIALE_power_routed.rpx
 | Design           : FILTRO_ESPONENZIALE
@@ -54,7 +54,7 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.003 |        3 |       --- |             --- |
 | Slice Logic    |     0.004 |      914 |       --- |             --- |
-|   LUT as Logic |     0.004 |      394 |     41000 |            0.96 |
+|   LUT as Logic |     0.004 |      396 |     41000 |            0.97 |
 |   Register     |    <0.001 |      230 |     82000 |            0.28 |
 |   Others       |     0.000 |      198 |       --- |             --- |
 | Signals        |     0.005 |      689 |       --- |             --- |

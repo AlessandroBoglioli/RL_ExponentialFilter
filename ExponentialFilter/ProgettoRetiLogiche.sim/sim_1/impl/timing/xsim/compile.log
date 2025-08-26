@@ -207,5 +207,3 @@ INFO: [VRFC 10-311] analyzing module FF_D_N__parameterized0
 INFO: [VRFC 10-311] analyzing module FF_D_N__parameterized0_2
 INFO: [VRFC 10-311] analyzing module FILTRO_ESPONENZIALE
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE_PPR.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'TB_FILTRO_ESPONENZIALE_PPR'

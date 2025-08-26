@@ -39,8 +39,10 @@ architecture RTL of BARREL_SHIFTER_32_4 is
     
 begin
 
-    U0: SRL1_32 port map (X, S(0), X1);
-    U1: SRL2_32 port map (X1, S(1), X2);
-    U2: SRL4_32 port map (X2, S(2), Y);
+    X1 <= '0' & X(31 downto 1) when S(0) = '1' else X;
+
+    X2 <= "00" & X1(31 downto 2) when S(1) = '1' else X1;
+
+    Y  <= "0000" & X2(31 downto 4) when S(2) = '1' else X2;
 
 end RTL;

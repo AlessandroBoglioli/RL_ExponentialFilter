@@ -76,11 +76,7 @@ read_vhdl -library xil_defaultlib {
   C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FA.vhd
   C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FF_D.vhd
   C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FF_D_N.vhd
-  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/MUX_2_1.vhd
   C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SIMPLE_SUM.vhd
-  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL1_32.vhd
-  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL2_32.vhd
-  C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL4_32.vhd
   C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd
 }
 OPTRACE "Adding files" END { }

@@ -6,11 +6,7 @@ vhdl xil_defaultlib  \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/FF_D.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/FF_D_N.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd" \
-"../../../../ProgettoRetiLogiche.srcs/sources_1/new/MUX_2_1.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/SIMPLE_SUM.vhd" \
-"../../../../ProgettoRetiLogiche.srcs/sources_1/new/SRL1_32.vhd" \
-"../../../../ProgettoRetiLogiche.srcs/sources_1/new/SRL2_32.vhd" \
-"../../../../ProgettoRetiLogiche.srcs/sources_1/new/SRL4_32.vhd" \
 
 vhdl2008 xil_defaultlib  \
 "../../../../ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE.vhd" \
