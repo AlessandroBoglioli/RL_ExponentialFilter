@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Aug 26 18:14:07 2025
-# Process ID         : 14340
+# Start of session at: Tue Aug 26 18:52:08 2025
+# Process ID         : 17328
 # Current directory  : C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.runs/synth_1
 # Command line       : vivado.exe -log FILTRO_ESPONENZIALE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FILTRO_ESPONENZIALE.tcl
 # Log file           : C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.runs/synth_1/FILTRO_ESPONENZIALE.vds
@@ -19,6 +19,6 @@
 # Host memory        : 16805 MB
 # Swap memory        : 1073 MB
 # Total Virtual      : 17878 MB
-# Available Virtual  : 6406 MB
+# Available Virtual  : 5735 MB
 #-----------------------------------------------------------
 source FILTRO_ESPONENZIALE.tcl -notrace

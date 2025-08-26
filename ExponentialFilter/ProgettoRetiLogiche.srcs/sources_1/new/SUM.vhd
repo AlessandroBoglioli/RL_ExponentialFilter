@@ -1,37 +1,33 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Se CARRY_IN = 0 -> A + B + C
--- Se CARRY_IN = 1 -> A - B + C
-
-entity CSA_32 is
+entity SUM is
     port(
         A         : in  std_logic_vector(31 downto 0);
         B         : in  std_logic_vector(31 downto 0);
         C         : in  std_logic_vector(31 downto 0);
-        CARRY_IN  : in  std_logic;
         SUM       : out std_logic_vector(31 downto 0)
     );
-end CSA_32;
+end SUM;
 
-architecture STRUCT of CSA_32 is
+architecture STRUCT of SUM is
 
     component FA is
         port(
-            X    : in  std_logic;
-            Y    : in  std_logic;
-            CIN  : in  std_logic;
-            S    : out std_logic;
-            COUT : out std_logic
+            X           : in  std_logic;
+            Y           : in  std_logic;
+            CARRY_IN    : in  std_logic;
+            S           : out std_logic;
+            CARRY_OUT   : out std_logic
         );
     end component;
     
     component SIMPLE_SUM is
         port(
-            X    : in  std_logic;
-            Y    : in  std_logic;
-            CARRY_IN  : in  std_logic;
-            SUM    : out std_logic
+            X           : in  std_logic;
+            Y           : in  std_logic;
+            CARRY_IN    : in  std_logic;
+            SUM         : out std_logic
         );
     end component;
     
@@ -46,7 +42,7 @@ architecture STRUCT of CSA_32 is
 begin
 
     GEN_B_IN: for i in 0 to 31 generate
-        B_IN(i) <= B(i) xor CARRY_IN;
+        B_IN(i) <= not B(i);
     end generate;
 
     GEN_CSA: for i in 0 to 30 generate
@@ -60,7 +56,7 @@ begin
         RCA_Y(i) <= CSA_CARRY_VECTOR(i-1);
     end generate;
 
-    RCA_CARRY_VECTOR(0) <= CARRY_IN;
+    RCA_CARRY_VECTOR(0) <= '1';
 
     GEN_RCA: for i in 0 to 30 generate
         RCA_FA: FA port map (CSA_SUM_VECTOR(i), RCA_Y(i), RCA_CARRY_VECTOR(i), SUM(i), RCA_CARRY_VECTOR(i+1));
