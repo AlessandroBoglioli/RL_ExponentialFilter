@@ -14,10 +14,10 @@ Compiling package ieee.std_logic_1164
 Compiling architecture rtl of entity xil_defaultlib.FF_D [ff_d_default]
 Compiling architecture struct of entity xil_defaultlib.FF_D_N [ff_d_n_default]
 Compiling architecture struct of entity xil_defaultlib.FF_D_N [\FF_D_N(n=3)\]
-Compiling architecture rtl of entity xil_defaultlib.BARREL_SHIFTER_32_4 [barrel_shifter_32_4_default]
+Compiling architecture rtl of entity xil_defaultlib.BARREL_SHIFTER [barrel_shifter_default]
 Compiling architecture rtl of entity xil_defaultlib.FA [fa_default]
 Compiling architecture rtl of entity xil_defaultlib.SIMPLE_SUM [simple_sum_default]
-Compiling architecture struct of entity xil_defaultlib.CSA_32 [csa_32_default]
+Compiling architecture struct of entity xil_defaultlib.SUM [sum_default]
 Compiling architecture struct of entity xil_defaultlib.FILTRO_ESPONENZIALE [filtro_esponenziale_default]
 Compiling architecture beh of entity xil_defaultlib.tb_filtro_esponenziale
 Built simulation snapshot TB_FILTRO_ESPONENZIALE_behav

@@ -1,12 +1,12 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../ProgettoRetiLogiche.srcs/sources_1/new/BARREL_SHIFTER_32_4.vhd" \
-"../../../../ProgettoRetiLogiche.srcs/sources_1/new/CSA_32.vhd" \
+"../../../../ProgettoRetiLogiche.srcs/sources_1/new/BARREL_SHIFTER.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/FA.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/FF_D.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/FF_D_N.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd" \
 "../../../../ProgettoRetiLogiche.srcs/sources_1/new/SIMPLE_SUM.vhd" \
+"../../../../ProgettoRetiLogiche.srcs/sources_1/new/SUM.vhd" \
 
 vhdl2008 xil_defaultlib  \
 "../../../../ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE.vhd" \

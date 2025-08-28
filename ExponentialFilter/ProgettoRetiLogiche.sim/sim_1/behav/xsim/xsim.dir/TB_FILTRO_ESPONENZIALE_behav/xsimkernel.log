@@ -1,7 +1,7 @@
-Running: xsim.dir/TB_FILTRO_ESPONENZIALE_behav/xsimk.exe -simmode gui -wdb TB_FILTRO_ESPONENZIALE_behav.wdb -simrunnum 0 -socket 50147
+Running: xsim.dir/TB_FILTRO_ESPONENZIALE_behav/xsimk.exe -simmode gui -wdb TB_FILTRO_ESPONENZIALE_behav.wdb -simrunnum 0 -socket 57287
 Design successfully loaded
-Design Loading Memory Usage: 29020 KB (Peak: 29020 KB)
-Design Loading CPU Usage: 608 ms
+Design Loading Memory Usage: 29028 KB (Peak: 29028 KB)
+Design Loading CPU Usage: 749 ms
 Simulation completed
-Simulation Memory Usage: 33672 KB (Peak: 33672 KB)
-Simulation CPU Usage: 1234 ms
+Simulation Memory Usage: 33720 KB (Peak: 33720 KB)
+Simulation CPU Usage: 1358 ms

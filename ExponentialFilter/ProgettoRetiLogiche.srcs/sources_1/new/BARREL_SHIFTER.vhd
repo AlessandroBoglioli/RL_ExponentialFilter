@@ -15,10 +15,10 @@ architecture RTL of BARREL_SHIFTER is
     
 begin
 
-    X1 <= '0' & X(31 downto 1) when S(0) = '1' else X;
+    X1 <= X(31) & X(31 downto 1) when S(0) = '1' else X;
 
-    X2 <= "00" & X1(31 downto 2) when S(1) = '1' else X1;
+    X2 <= X1(31) & X1(31) & X1(31 downto 2) when S(1) = '1' else X1;
 
-    Y  <= "0000" & X2(31 downto 4) when S(2) = '1' else X2;
+    Y  <= X2(31) & X2(31) & X2(31) & X2(31) & X2(31 downto 4) when S(2) = '1' else X2;
 
 end RTL;

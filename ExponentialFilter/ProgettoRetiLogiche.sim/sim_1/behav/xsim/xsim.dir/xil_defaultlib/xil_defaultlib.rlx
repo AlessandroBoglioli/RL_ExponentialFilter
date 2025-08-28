@@ -2,15 +2,11 @@
 2020.2
 Nov  8 2024
 22:36:57
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE.vhd,1756220451,vhdl2008,,,,tb_filtro_esponenziale,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/BARREL_SHIFTER_32_4.vhd,1756224832,vhdl,,,,barrel_shifter_32_4,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/CSA_32.vhd,1750170077,vhdl,,,,csa_32,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FA.vhd,1749479683,vhdl,,,,fa,,,,,,,,
+C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sim_1/new/TB_FILTRO_ESPONENZIALE.vhd,1756399392,vhdl2008,,,,tb_filtro_esponenziale,,,,,,,,
+C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/BARREL_SHIFTER.vhd,1756397338,vhdl,,,,barrel_shifter,,,,,,,,
+C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FA.vhd,1756227087,vhdl,,,,fa,,,,,,,,
 C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FF_D.vhd,1755779918,vhdl,,,,ff_d,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FF_D_N.vhd,1755442246,vhdl,C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd,,,ff_d_n,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd,1755780746,vhdl,,,,filtro_esponenziale,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/MUX_2_1.vhd,1749479668,vhdl,,,,mux_2_1,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SIMPLE_SUM.vhd,1750064837,vhdl,,,,simple_sum,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL1_32.vhd,1749479519,vhdl,,,,srl1_32,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL2_32.vhd,1749309074,vhdl,,,,srl2_32,,,,,,,,
-C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SRL4_32.vhd,1749309071,vhdl,,,,srl4_32,,,,,,,,
+C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FF_D_N.vhd,1756226545,vhdl,C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd,,,ff_d_n,,,,,,,,
+C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/FILTRO_ESPONENZIALE.vhd,1756226892,vhdl,,,,filtro_esponenziale,,,,,,,,
+C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SIMPLE_SUM.vhd,1756227043,vhdl,,,,simple_sum,,,,,,,,
+C:/Users/utente/Desktop/Progetto_Vivado/RL_ExponentialFilter/ExponentialFilter/ProgettoRetiLogiche.srcs/sources_1/new/SUM.vhd,1756227011,vhdl,,,,sum,,,,,,,,
