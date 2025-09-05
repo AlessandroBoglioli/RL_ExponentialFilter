@@ -45,15 +45,18 @@ begin
     GEN: process
         
     begin
-    
-        K <= "001";
-        X <= x"FFFF8000";
-        
-        -- 11111111111111110000000000000000
         
         RESET <= '1';
+        
         wait for 0.5 ns;
+        
         RESET <= '0';
+        K <= "111";
+        X <= x"00010000";
+        
+        wait for 200ns;
+        
+        X <= x"00000010";
         
         wait;
         
